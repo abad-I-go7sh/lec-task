@@ -1,0 +1,70 @@
+/*          md            */
+@media (max-width: 1199px) and (min-width: 992px) {}
+
+
+/*          sm            */
+@media (max-width: 991px) and (min-width: 768px) {}
+
+/*           mopile xs            */
+@media (max-width: 767px) and (min-width: 320px) {
+    nav.navbar {
+        left: 17px;
+
+    }
+
+    .img-res {
+        margin-top: -185px;
+    }
+
+    .footer .nav.df {
+        margin-left: 0px;
+        padding-top: 20px;
+    }
+
+    .cod {
+        padding-top: 20px;
+    }
+
+    .res-2 {
+        font-size: 20px;
+    }
+
+    .res-3 {
+        font-size: 15px;
+    }
+
+    .fa.fa-credit-card,
+    .fa.fa-rub,
+    .fa.fa-server {
+        position: relative;
+        top: -39px;
+        right: -279px;
+    }
+
+    .form-row.bg-light {
+        height: 58px;
+    }
+    .navbar-light .navbar-toggler  {
+        margin-right: 47px;
+        color: #fff !important;
+        border-radius: 1px solid #fff !important;
+    }
+    a.nav-link {
+        color: rgb(0, 0, 0) !important;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

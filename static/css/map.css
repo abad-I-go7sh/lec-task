@@ -1,0 +1,166 @@
+body {
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+/* start section navbar */
+
+nav.navbar {
+    left: 149px;
+    width: 100%;
+    padding: 0px 0;
+    z-index: 99999;
+    background-color: #fff !important;
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+
+    margin-left: 581px;
+
+}
+
+i.fa {
+    color: rgb(0, 0, 0);
+}
+
+a.nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+a.nav-link:hover {
+    color: #e54750 !important;
+}
+
+/* start section 2 */
+.compo .col-md-3 {
+    background-color: #dee2e6;
+    padding: 16px 24px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: 1000px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.compo .fa.fa-search {
+    content: "\f002";
+    position: absolute;
+    top: 11px;
+    right: 37px;
+    opacity: 0.5;
+
+}
+
+.form-group {
+    margin-right: 9px;
+}
+
+.compo span.root {
+    border: 1px solid black;
+    padding: 9px 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 13px;
+}
+
+.compo .fa.fa-exchange {
+    padding-left: 40px;
+}
+
+.compo span.root-2 {
+    border: 1px solid black;
+    padding: 9px 16px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 13px;
+    right: 0;
+}
+
+.compo div.info {
+    position: relative;
+    top: -72px;
+    color: #fff;
+    font-weight: bold;
+    left: 51px;
+    line-height: 16px;
+    z-index: 99999;
+
+}
+
+.compo img.im {
+    margin-top: 29px;
+    border-radius: 10px;
+
+}
+
+.info-1 h3 {
+    position: relative;
+    top: -433px;
+    left: 40px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 4px 8px;
+    border-radius: 11px;
+    font-size: 17px;
+}
+
+.info-2 h3 {
+    position: relative;
+    top: -464px;
+    right: -238px;
+    display: inline-block;
+    background-color: rgb(231, 118, 12);
+    padding: 4px 8px;
+    border-radius: 11px;
+    font-size: 17px;
+}
+
+.info-3 h5.cccv {
+    font-size: 15px;
+    position: relative;
+    top: -176px;
+    left: 19px;
+}
+
+.info-4 h5.ccccv {
+    font-size: 15px;
+    position: relative;
+    left: 269px;
+    top: -197px;
+    ;
+}
+
+.over {
+    background-image: linear-gradient(to top, #010101, transparent);
+    opacity: 0.3;
+    border-radius: 15px;
+    height: 67px;
+    position: relative;
+    top: -54px;
+    right: 33px;
+    z-index: -2;
+    width: 92%;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    min-height: 100% !important;
+    width: 1050px;
+    margin-right: -10px !important;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    min-height: 100% !important;
+
+    background: none !important;
+    height: 1050px;
+    width: 1050px;
+    margin-right: 0px;
+
+}

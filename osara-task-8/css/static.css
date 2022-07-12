@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,697;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding-top: 50px;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    scroll-behavior: smooth;
+
+}
+
+
+/* start secton nav */
+.navbar-nav .active {
+    color: #2155d7;
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-brand .bra {
+    display: flex;
+    padding-right: 5px;
+    line-height: 19px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+span.brand {
+    position: absolute;
+    right: 64px;
+    top: 8px;
+    color: #fff;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 20px;
+    margin-top: 8px;
+    color: #262626;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #262626 !important;
+
+}
+
+nav .btn-success {
+    color: #0031AA;
+    background-color: transparent;
+    background-image: none;
+    border-color: #0031AA;
+}
+
+nav .btn {
+    padding: 3px 25px;
+    border-radius: 15px;
+}
+
+/* start section 2 */
+.sec-2{
+    padding: 100px 0;
+    padding-bottom: 0px;
+
+}
+.sec-2 .bag{
+    margin-right: -487px;
+    background-color: #1d72cd;
+    border-radius: 213px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    right: -241px;
+    height: 1025px;
+    transform: rotate(156deg);
+    margin-top: -742px;
+}
+
+/* start section 3 */
+.sec-3 .img:before {
+    width: 55px;
+    height: 55px;
+    content: '';
+    border-radius: 100%;
+    background: rgba(46, 218, 244, 0.1);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+.sec-3 .cvv{
+    margin-bottom: 48px;
+}
+.sec-3 .cvv p{
+    font-size: 18px;
+    color: #8A8E98;
+}
+.sec-3 .cvv h3{
+    font-size: 18px !important;
+    font-weight: 400;
+}
+
+/* start section 4 */
+.sec-4{
+    padding: 100px 0;
+    padding-bottom: 0px;
+
+}
+.sec-4 .bagg{
+    margin-right: -561px;
+    background-color: #f4f4f3;
+    border-radius: 213px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    right: -241px;
+    height: 606px;
+    margin-top: -551px;
+}
+.trr{
+    padding-right: 38px;
+    position: relative;
+    font-size: 14px;
+    color: #393D48;
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 26px;
+
+}
+.trr:before{
+    content: url(../images/page1/sec1/colored-list-icon.svg);
+    right: -15px !important;
+    top: 54%;
+    transform: translateY(-50%);
+    position: absolute;
+    height: 17px;
+}
+
+
+/* start section 5 */
+.sec-5{
+    padding: 100px 0;
+    padding-bottom: 0px;
+
+}
+.carousel-indicators li{
+    background-color: #262626;
+}
+a .carousel-control-prev{
+    background-color: #262626;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(237, 25, 25) !important;
+}
+#carouselB p{
+    margin-top: 50px;
+}
+/* start section 6 */
+.sec-6{
+    padding: 100px 0;
+}
+.over {
+    position: absolute;
+    width: 95%;
+    height: 82%;
+    top: 0px;
+    left: 3px;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 21px;
+}
+.over:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.75);
+
+}
+.sec-7{
+    padding: 100px 0;
+    padding-bottom: 40px;
+}
+
+.sec-7 .contet{
+    background-color: #6975e0;
+    height: 281px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.trr-r {
+    padding-right: 17px;
+    position: relative;
+    font-size: 14px;
+    color: #393D48;
+    font-weight: 500;
+    margin-bottom: 11px;
+    line-height: 26px;
+}
+.sec-7 div{
+    color: #fff;
+}
+
+/* start section 8 */
+.sec-8{
+    padding-bottom: 100px ;
+}
+.sec-8 .contet-t{
+    background-color: #4ca9c7;
+    height: 141px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* start a footer */
+
+
+.footer {
+    padding: 100px 0;
+    padding-bottom: 30px;
+}
+
+.navbar-brandd .brad {
+    display: flex;
+    padding-right: 5px;
+    line-height: 19px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+span.brandd {
+    position: absolute;
+    right: 57px;
+    top: -6px;
+    color: #0030A7;
+
+}
+
+.site-info {
+    text-align: right;
+    display: block;
+    position: relative;
+
+}
+
+.site-info ul li {
+    float: right;
+}
+
+.site-info ul li img {
+
+    padding-left: 15px;
+    width: 39px;
+    height: 32px;
+    padding-left: 7px;
+    cursor: pointer;
+
+}
+
+.site-info ul li .wt {
+    position: absolute;
+    top: -2px;
+    right: 130px;
+}
+
+.site-info ul li .wtt {
+    position: absolute;
+    top: -2px;
+    right: 166px;
+}
+
+.site-info ul li .wttt {
+    position: absolute;
+    top: -2px;
+    right: 202px;
+}
+
+.site-info ul li .wtttt {
+    position: absolute;
+    top: -2px;
+    right: 238px;
+}
+
+.site-info ul li .wttttt {
+    position: absolute;
+    top: -2px;
+    right: 275px;
+}
+
+.site-info .boll ul li img {
+
+    width: 82px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.boll {
+    margin-right: -40px;
+}
+
+.footer .media {
+    margin-top: 71px;
+    margin-right: -34px;
+}
+
+.footer .media .media-body h5 {
+    font-size: 11px;
+    font-family: cursive;
+    margin: calc(0rem - 0.14285714em) 0 1rem;
+    line-height: 19px;
+}
+
+.footer .media .media-body {
+    margin-top: 10px;
+    line-height: 11px;
+}
+
+.footer .helpful-link {
+    margin-right: 83px;
+}
+
+.footer .contactb {
+    margin-right: -43px;
+    margin-bottom: 20px;
+    margin-right: 83px;
+
+}
+
+.footer .contactb a {
+    color: #4D4C7D;
+}
+
+.footer .contact a {
+    color: #4D4C7D;
+}
+.contact .rr{
+    font-size: 22px;
+}
+.trr-r {
+    padding-right: 17px;
+    position: relative;
+    font-size: 14px;
+    color: #393D48;
+    font-weight: 500;
+    margin-bottom: 11px;
+    line-height: 26px;
+}
+
+.trr-r:before{
+    content: url(../images/page1/sec1/colored-list-icon.svg);
+    right: -15px !important;
+    top: 33%;
+    transform: translateY(-50%);
+    position: absolute;
+    height: 17px;
+}

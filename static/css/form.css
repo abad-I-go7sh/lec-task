@@ -1,0 +1,188 @@
+body {
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+/* start section navbar */
+
+nav.navbar {
+    left: 149px;
+    width: 100%;
+    padding: 0px 0;
+    z-index: 99999;
+    background-color: #fff !important;
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+
+    margin-left: 581px;
+
+}
+
+i.fa {
+    color: rgb(0, 0, 0);
+}
+
+a.nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+a.nav-link:hover {
+    color: #e54750 !important;
+}
+
+/* start section 2 */
+.sec-2 {
+    padding: 100px 0;
+}
+
+.card {
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+}
+
+label {
+    color: black;
+}
+
+.ccarde {
+    padding-left: 33px !important;
+    padding-top: 11px;
+}
+
+.fa.fa-credit-card,
+.fa.fa-rub,
+.fa.fa-server {
+    position: relative;
+    top: 13px;
+    right: -204px;
+
+}
+
+small {
+    color: black;
+    font-size: 10px;
+}
+h6.sm{
+    font-size: 12px;
+}
+h5.ord{
+    background-image: linear-gradient(to right,#e54750,#e54750);
+    padding: 13px 3px;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 25px;
+}
+.sum{
+    font-size: 23px;
+}
+li{
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+/* start section footer */
+.footer {
+    padding: 100px 0;
+    background-color: #f6f1d3;
+
+
+}
+
+.footer h3 {
+    font-size: 17px;
+}
+
+.footer i.fa {
+    color: #e54750;
+    padding-right: 5px;
+}
+
+.form-inline .form-control {
+    margin-left: -41px;
+    padding-right: 0px;
+    padding-left: 3px;
+}
+
+.form-inline button {
+    margin-left: -18px;
+    padding: 5px;
+}
+
+.footer form {
+    margin-left: 23px;
+}
+
+.footer .nav img {
+    margin-right: 8px;
+}
+
+.footer .nav.df li.nav-item span {
+    margin-right: 4px;
+}
+
+.footer .nav.df {
+    margin-left: 237px
+}
+
+.footer hr {
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start scroll to top */
+#scroll-top {
+
+    width: 35px;
+    height: 30px;
+    color: #ddd;
+    background-color: #272727;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 999999;
+    display: none;
+    cursor: pointer;
+}
+
+#scroll-top:hover {
+    background-color: #444;
+
+
+}
